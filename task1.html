@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css">
+    
+</head>
+<body>
+    <header class="main-container">
+        <h1 class="Title">OTT Platform</h1>
+        <nav>
+            <ul class="un-order-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+            <input class="input" placeholder="Search" type="search" />
+            <div class="auth-buttons">
+                <button class="login" onclick="showLogin()">Login</button>
+                <button class="login" onclick="showSignup()">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    <div class="gift-card">
+        <div class="image">
+            <img src="gift_image.jpg" alt="Gift Card Image">
+        </div>
+        <div class="details">
+            <h2>Gift Card</h2>
+            <p>This card entitles the bearer to:</p>
+            <ul>
+                <li>$50 off any purchase</li>
+                <li>Valid until December 31, 2024</li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <section class="trending">
+            <h2>Trending Movies</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="movie1.jpg" alt="Image 1">
+                    <div class="overlay">
+                        <h3>Name 1</h3>
+                        <p>Movie 1</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recommended">
+            <h2>Recommended Content</h2>
+            <!-- Recommended content goes here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OTT Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

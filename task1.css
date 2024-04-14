@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    background-color: black;
+    display: flex;
+    color: white;
+    font-family: "Roboto";
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Title {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.un-order-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+    padding-right: 20px;
+}
+
+@media all and (min-width:576px) {
+    .un-order-list {
+        font-size: 10px;
+    }
+
+    .Title {
+        font-size: 10px;
+    }
+
+    .login {
+        background-color: #3a0db8;
+        border: 0px;
+        border-radius: 10px;
+        color: white;
+        font-family: "Roboto";
+        font-size: 10px;
+        height: 30px;
+        padding: 5px 8px;
+        margin: 0px 5px;
+    }
+}
+
+@media all and (max-width:576px) {
+    .input {
+        display: none;
+        border: 0px;
+    }
+}
+
+nav {
+
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    padding: 10px;
+}
+
+.auth-buttons {
+
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.gift-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+}
+
+.details {
+    padding: 20px 0;
+}
+
+.details h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details p {
+    text-align: center;
+}
+
+.details ul {
+    list-style-type: none;
+}
+
+.details li {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.gift-card {
+    font-family: "Roboto";
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+    height: 10vh;
+    padding-top: 20px;
+}
